@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="views/css/outros.css">
+    <link rel="stylesheet" href="views/css/global.css">
+    <link rel="stylesheet" href="views/css/external.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header pad-M">
+        <div class="logo">
+            <h2>Tropa do Mantém</h2>
+        </div>
+
+        <nav class="navbar">
+                    <a href="index.html" class="bi bi-house-door"></a>
+                    <i id="seacrh-desketop" class="bi bi-search "></i>
+                    <a href="planos.html">Planos</a>
+                    <a href="#">Galeria</a>
+                    <a href="#" class="">Contactos</a>
+
+                    <div class="pub-nav">
+                        <img src="views/assets/img/festa-2.jpg" alt="">
+                    </div>
+        </nav>
+        
+        <div class="icons-mobile-header">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-list"></i>
+        </div>
+        <a href="agenadar.html" class="btn-agendar">Agendar Projecto</a>
+    </header>
+
+    <section class="container-contact">
+        <div class="contact">
+            <div class="baner">
+                <img src="views/assets/img/contacto-1.jpg" alt="">
+              
+            </div>
+              <h2 class="title">contactos</h2>
+            <div class="area-contact">
+               <a href="" class=""><i class="bi bi-whatsapp"></i> <span>9235353708</span></a>
+               <a href="" class=""><i class="bi bi-facebook"></i> <span>Mantém</span></a>
+               <a href="" class=""><i class="bi bi-instagram"></i> <span>@mantém</span></a>
+               <a href="" class=""><i class="bi bi-google"></i> <span>mail</span></a>
+               <a href="" class=""><i class="bi bi-github"></i> <span>Ebraim Sambo</span></a>
+               <a href="" class=""><i class="bi bi-geo-alt-fill"></i> <span>Angola, Luanda, Kilamba</span></a>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="icons">
+            <a href="#" class="bi bi-facebook"></a>
+            <a href="#" class="bi bi-whatsapp"></a>
+            <a href="#" class="bi bi-google"></a>
+            <a href="#" class="bi bi-envelope"></a>
+            <a href="#" class="bi bi-phone"></a>
+        </div>
+        <div class="line"></div>
+        <div class="creduted">
+            <p>WebSoluções &copy; 2022</p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+
+  AOS.init({duration:1000});
+
+
+        const navbar = document.querySelector('.navbar');
+        const btnMenu = document.querySelector('.bi-list')
+
+        btnMenu.addEventListener('click', ()=>{
+            navbar.classList.toggle('active');
+            btnMenu.classList.toggle('bi-x')
+        })
+    </script>
+</body>
+</html>

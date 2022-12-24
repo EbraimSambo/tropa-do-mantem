@@ -1,0 +1,294 @@
+.arrow-left-circle{
+  position: absolute;
+  bottom: 12%;
+  font-size: 4rem;
+  left: 9%;
+  
+}
+
+.arrow-left-circle a{
+  font-size: 4rem;
+  color: #deb81b;
+}
+.agendamento h2{
+   margin-bottom: 2rem;
+   font-size: 2rem;
+   color: #deb81b;
+}
+.agendamento {
+   background: url(../assets/img/festa-6.jpg) no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 100vh;
+ }
+ 
+ .container
+ {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+ }
+label{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #deb81b;
+}
+ form{
+  width: 80rem;
+  background-color: rgba(255, 255, 255, 0.394);
+  padding:4rem 2rem;
+  text-align: center;
+  border-radius: .4rem;
+ }
+
+ .input-flex{
+  text-align: left;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 1rem;
+   margin-bottom: 2rem;
+
+ }
+
+
+ .input-flex .input-box{
+    width: 48%;
+    height: 45px;
+ 
+ }
+
+ .input-flex .input-box input,
+ .input-flex .input-box select{
+  width: 100%;
+  height: 75%;
+  margin-top: .6rem;
+  padding-left: .6rem;
+  border-radius: .2rem;
+   background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    letter-spacing: .1rem;
+}
+.input-flex .input-box input:focus,
+.input-box select:focus{
+  
+  border-color: #deb81b;
+}
+.input-flex .input-box select:focus{
+  color: #111;
+}
+.input-flex .input-box input::placeholder{
+
+  color: #fff;
+}
+.button-flex{
+  text-align: left !important;
+  margin-top: 1.5rem !important;
+}
+
+.button-flex button{
+  background: #deb81b;
+  padding: .5rem 1rem;
+  border-radius: .4rem;
+  font-weight: 600;
+}
+
+.form-footer{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.form-footer .icons{
+  margin-bottom: 1rem;
+}
+.form-footer .icons a{
+  font-size: 2rem;
+  margin-right: 1rem;
+  text-shadow: 1px 3px 18px #111111b8;
+  color: #deb81b;
+}
+.form-footer a:hover{
+  color: #fff;
+}
+
+.form-footer p{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #deb81b;
+  text-shadow: 1px 3px 18px #111111ab;
+}
+
+.form-footer .line{
+  height: .1rem;
+  background: #deb81b;
+  width: 300px;
+  margin: 1rem auto;
+}
+
+
+.contact{
+   position: relative;
+}
+.container-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 11rem;
+}
+.baner{
+  width: 700px;
+ height: 400px;
+ box-shadow:0 .5rem 1rem #000000e8;
+
+}
+.contact h2{
+  position: absolute;
+  top: 0;
+  left: 4%;
+
+}
+.baner img{
+  width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius:  .4rem .4rem 0 0;
+}
+.area-contact{
+  background: #fdfcfc96;
+  padding: 1rem;
+  box-shadow:0 .5rem 1rem #000000a7;
+  width: 700px;
+  transform: translateY(-82px);
+  border-radius: 0 0 .4rem .4rem;
+}
+.area-contact a{
+  padding: .4rem;
+  display: block;
+  font-size: 1.6rem;
+  text-shadow: 1px 3px 18px #111111ab;
+}
+.area-contact a i{
+  font-size: 2rem !important;
+}
+
+.area-contact a i:hover {
+  transform: translateX(19px);
+}
+.area-contact a span{
+  color: #222;
+  font-weight: 600;
+  font-size: 1.6rem !important;
+}
+.area-contact .bi-whatsapp{
+  color: #5bb500;
+}
+
+.area-contact .bi-facebook{
+  color: #0d88f0;
+}
+
+.area-contact .bi-instagram{
+  color: #e10df0;
+}
+
+.area-contact .bi-geo-alt-fill{
+  color: #e1ff00;
+}
+.area-contact .bi-google{
+  color: #ff0000;
+}
+
+.area-contact .bi-github{
+  color: #222;
+}
+
+
+.container-galeria{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 7rem;
+}
+.container-galeria h2{
+font-size: 2.6rem;
+}
+.card{
+  width: 500px;
+  height: 400px;
+position: relative;
+  box-shadow:0 .5rem 1rem #000000a7;
+}
+
+
+.card img{
+  width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: .6rem .6rem 0 0 ;
+}
+
+.card .desc{ 
+  width: 100%;
+  background: #deb71b9a;
+  bottom: 0;
+  position: absolute;
+  padding: 1rem;
+}
+.card .azul{ 
+
+  background: #1bb1de9a;
+
+}
+.desc h2{ 
+  font-size: 3rem;
+}
+.card .vermelho{ 
+
+  background: #de1b1b9a;
+
+}
+.desc p{ 
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 2rem;
+}
+.desc .p1{ 
+  padding: 1rem;
+  border: 1px solid #111;
+}
+@media (max-width: 789px) {
+  html{
+      font-size:50%;
+  }
+
+  form{
+    width: 100%;
+  }
+  .input-flex .input-box{
+    width: 100% !important;
+ }
+
+ .input-flex .input-box{
+  margin-bottom: 1rem;
+}
+
+
+.input-flex .input-box select{
+  background: #fff;
+  color: #111;
+}
+.arrow-left-circle{
+ display: none;
+}
+
+.baner, .card, .area-contact{
+  width: 100%;
+
+}
+}
