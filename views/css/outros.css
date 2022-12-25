@@ -83,10 +83,12 @@ label{
 }
 
 .button-flex button{
-  background: #deb81b;
-  padding: .5rem 1rem;
+  background: #717b88;
+  padding: .9rem 1.6rem;
   border-radius: .4rem;
   font-weight: 600;
+  cursor: pointer;
+  color: #fff;
 }
 
 .form-footer{
