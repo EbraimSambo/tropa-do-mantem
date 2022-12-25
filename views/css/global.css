@@ -309,6 +309,7 @@ body{
    }
    .navbar a{
     color: #fff;
+       padding: 5px;
    }
     .btn-agendar, #seacrh-desketop, .spinner,
     .spinner2,.content a:nth-child(2),
