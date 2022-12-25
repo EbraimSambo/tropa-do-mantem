@@ -61,14 +61,14 @@ label{
   padding-left: .6rem;
   border-radius: .2rem;
    background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #222;
     color: #fff;
     letter-spacing: .1rem;
 }
 .input-flex .input-box input:focus,
 .input-box select:focus{
   
-  border-color: #deb81b;
+  border-color: #fff;
 }
 .input-flex .input-box select:focus{
   color: #111;
