@@ -73,6 +73,12 @@
 
     </footer>
 
+ <form action=""  class="form">
+          <div class="box-input">
+          <i class="bi bi-search"></i>   <input type="search" name="" id="" placeholder="Pesquisar"> 
+          </div>
+           <i class="bi bi-x x"></i>
+ </form>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -81,12 +87,28 @@
   AOS.init({duration:1000});
 
 
-        const navbar = document.querySelector('.navbar');
+               const navbar = document.querySelector('.navbar');
         const btnMenu = document.querySelector('.bi-list')
-
+        const btnSearch2 = document.querySelector('.btnSearch-2')
+        const btnSearch = document.querySelector('.btnSearch')
+        const form = document.querySelector('.form')
+        btnSearch2.addEventListener('click', ()=>{
+            form.classList.toggle('active');
+            navbar.classList.remove('active');
+        })
+        btnSearch.addEventListener('click', ()=>{
+            form.classList.toggle('active');
+            navbar.classList.remove('active');
+        })
         btnMenu.addEventListener('click', ()=>{
             navbar.classList.toggle('active');
             btnMenu.classList.toggle('bi-x')
+            form.classList.remove('active');
+        })
+
+        document.querySelector('.x').addEventListener('click', ()=>{
+            form.classList.toggle('active');
+            navbar.classList.remove('active');
         })
     </script>
 </body>
