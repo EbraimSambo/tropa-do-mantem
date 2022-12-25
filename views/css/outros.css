@@ -15,13 +15,7 @@
    font-size: 2rem;
    color: #deb81b;
 }
-.agendamento {
-   background: url(../assets/img/festa-6.jpg) no-repeat;
-   background-size: cover;
-   background-position: center center;
-   height: 100vh;
- }
- 
+
  .container
  {
    display: flex;
